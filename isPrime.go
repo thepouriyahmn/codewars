@@ -5,7 +5,6 @@ import "fmt"
 func main() {
 
 	fmt.Println(isPrime(0))
-	fmt.Println(fact(5))
 
 }
 func isPrime(num int) bool {
@@ -21,11 +20,4 @@ func isPrime(num int) bool {
 		}
 	}
 	return prime
-}
-func fact(num int) int {
-	res := 1
-	for i := num; i > 0; i-- {
-		res = res * i
-	}
-	return res
 }
